@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesona Pendidikan Berbasis Pesantren di Pekalongan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #046307;
+    color: #fff;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffeb3b;
+}
+
+.hero {
+    background: linear-gradient(rgba(4, 99, 7, 0.85), rgba(4, 99, 7, 0.85)), url('https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    font-weight: 300;
+}
+
+.btn {
+    background-color: #ffeb3b;
+    color: #333;
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s, transform 0.2s;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #fbc02d;
+    transform: translateY(-2px);
+}
+
+section {
+    padding: 80px 10%;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 2.2rem;
+    color: #046307;
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    color: #666;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.about-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.features-section {
+    background-color: #f1f8f1;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.feature-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-card i {
+    font-size: 2.5rem;
+    color: #046307;
+    margin-bottom: 20px;
+}
+
+.feature-card h3 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+    .hero h1 {
+        font-size: 2rem;
+    }
+}
+    </style>
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-graduation-cap"></i> Pesantren Pekalongan
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#keunggulan">Keunggulan</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="beranda" class="hero">
+        <div class="hero-content">
+            <h1>Pesona Pendidikan Berbasis Pesantren di Pekalongan</h1>
+            <p>Membentuk generasi unggul yang cerdas secara intelektual, berkarakter akhlakul karimah, serta siap menghadapi tantangan zaman melalui integrasi ilmu agama dan teknologi.</p>
+            <a href="#tentang" class="btn">Jelajahi Selengkapnya</a>
+        </div>
+    </section>
+    <section id="tentang" class="about-section">
+        <div class="section-title">
+            <h2>Mengenal Tradisi & Modernitas</h2>
+            <p>Harmoni antara nilai-nilai salaf dan kemajuan teknologi di Kota Batik</p>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Pekalongan tidak hanya dikenal sebagai kota kreatif dunia dan pusat batik, tetapi juga menjadi rumah bagi ratusan pondok pesantren bersejarah yang melahirkan ulama-ulama besar.</p>
+                <p>Pendidikan berbasis pesantren di Pekalongan kini memadukan sistem pengajaran kitab kuning klasik dengan penguasaan sains, teknologi, dan kewirausahaan modern (#SantriHighTech).</p>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=600&q=80" alt="Suasana Pesantren">
+            </div>
+        </div>
+    </section>
+    <section id="keunggulan" class="features-section">
+        <div class="section-title">
+            <h2>Keunggulan Pesantren di Pekalongan</h2>
+            <p>Kenapa memilih sistem pendidikan pesantren di Pekalongan?</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fa-solid fa-book-quran"></i>
+                <h3>Kajian Kitab Kuning</h3>
+                <p>Pendalaman ilmu agama Islam secara komprehensif langsung dari sumber-sumber muktamad.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Integrasi Teknologi</h3>
+                <p>Membekali santri dengan keterampilan digital modern, pemrograman, dan literasi teknologi.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa-solid fa-users-rectangle"></i>
+                <h3>Karakter & Akhlak</h3>
+                <p>Pembinaan kedisiplinan, kemandirian, dan adab keseharian berbasis lingkungan asrama yang kondusif.</p>
+            </div>
+        </div>
+    </section>
+    <footer id="kontak">
+        <p>&copy; 2026 Ujian Tengah Semester - Pemrograman Web | Teknologi Informasi ITSNU Pekalongan.</p>
+    </footer>
+</body>
+</html>
